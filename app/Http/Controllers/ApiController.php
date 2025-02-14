@@ -9,18 +9,18 @@ class ApiController extends Controller
 {
     protected function apiRequest($endpoint, $method = 'GET', $data = [])
     {
+        $baseUrl = config('api.base_url');
+    
         $response = Http::withHeaders([
             'Accept' => 'application/json',
             'Authorization' => config('services.api_key_secret')
-        ])->{$method}("https://www.booking-manager.com/api/v2/{$endpoint}", $data);
-
-        if ($response->successful()) {
-            return response()->json($response->json());
-        } else {
-            return response()->json(['error' => 'API request failed'], $response->status());
-        }
+        ])->{$method}("{$baseUrl}/{$endpoint}", $data);
+    
+        return $response->successful()
+            ? response()->json($response->json())
+            : response()->json(['error' => 'API request failed'], $response->status());
     }
-
+    
     public function getCountries()
     {
         return $this->apiRequest('countries');
