@@ -1,0 +1,347 @@
+// Use Flowbite theme (updated from @import)
+@use 'flowbite/src/themes/default' as *;
+
+// Use your share-buttons file (updated from @import)
+@use 'share-buttons' as *;
+
+// Tailwind CSS directives
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$primary: rgb(37, 99, 235);
+
+// Custom CSS variables
+:root {
+    --swiper-navigation-size: 16px !important;
+    --swiper-theme-color: #007aff;
+}
+
+// Global styles
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow-x: hidden; // Moved from html to body for better practice
+}
+
+textarea {
+    font-family: "Poppins", sans-serif;
+}
+
+// Specific component styles
+.card-region-item {
+    overflow: hidden;
+
+    .relative {
+        overflow: hidden;
+    }
+
+    .card-region-item-thumb {
+        transition: .5s;
+        transition-timing-function: ease-out;
+
+        &:hover {
+            transform: scale(1.03);
+        }
+    }
+
+    &:after {
+        transition: .5s;
+
+        &:hover {
+            opacity: 0.4;
+        }
+    }
+}
+
+.action-container {
+    position: relative;
+    max-height: 570px;
+    height: 100%;
+}
+
+.action-container-background {
+    position: absolute;
+    width: 100vw;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: calc(100% - 60px);
+    }
+}
+
+.partner-item {
+    border: 1px solid rgba(237, 237, 237, 1);
+    filter: grayscale(1);
+}
+
+.boat-category-item img {
+    transition: .3s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.custom-input {
+    color: #767676; /* grey-46 */
+    background-color: #F5F5F5; /* grey-96 */
+    padding: 20px 25px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    outline: none;
+    box-sizing: border-box;
+
+    &:focus {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    &.input-dynamic-width {
+        width: auto;
+        min-width: 150px; /* set a min width to prevent being too small */
+        display: inline-block;
+    }
+
+    &.date-picker-input{
+        padding-left: 35px;
+    }
+}
+
+.custom-box {
+    background-color: #F5F5F5; /* grey-96 */
+    padding: 20px 25px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+
+    &:focus-within {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.qa-number {
+    z-index: 1;
+    color: #AAAAAA;
+    position: relative;
+    margin-left: -6px;
+
+    &-bg {
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: auto;
+        filter: grayscale(1);
+        opacity: .2;
+        transition: .4s;
+    }
+
+    .active & {
+        color: white;
+        transition: .4s;
+
+        &-bg {
+            filter: unset;
+            opacity: 1;
+        }
+    }
+}
+
+.qa-answer {
+    border-left: 4px solid #222222;
+}
+
+.mainscreen {
+    background-image: url('/public/img/mainscreen.webp');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+    &:after {
+        position: absolute;
+        content: '';
+        background-color: #0F3C4D;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        opacity: .5;
+    }
+}
+
+.header li:has(.submenu) {
+    position: relative;
+}
+
+.header .sub-menu {
+    line-height: 3;
+    list-style-type: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    text-wrap: nowrap;
+    white-space: nowrap;
+    display: none; // Added default display
+
+    &.active {
+        display: block;
+    }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 34px !important; /* 26px kruh + 4px padding na každé straně */
+    height: 34px !important;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    bottom: 0px !important;
+    top: unset !important;
+
+    &.swiper-button-prev {
+        transform: translateX(-200%) translateY(-6px);
+        margin-left: -1em;
+        left: 50% !important;
+    }
+
+    &.swiper-button-next {
+        transform: translateX(200%) translateY(-5px);
+        margin-left: -1em;
+        left: 50% !important;
+    }
+
+    &::after {
+        color: black;
+        font-weight: 600 !important;
+    }
+}
+
+.blog-swiper {
+    .swiper-button-prev {
+        transform: translateX(-100%) translateY(-5px);
+    }
+
+    .swiper-button-next {
+        transform: translateX(100%) translateY(-5px);
+    }
+
+    .swiper-slide {
+        height: auto !important;
+    }
+}
+
+.searchYachtPrice{
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr auto;
+}
+
+.yacht-serach-item{
+    .swiper-button-next{
+        right: 10px !important;
+        left: unset !important;
+        transform: unset !important;
+    }
+    .swiper-button-prev{
+        left: 10px !important;
+        right: unset !important;
+        transform: translateX(15px) !important;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        opacity: 0;
+        top: 50% !important;
+        transition: .2s !important;
+    }
+    &:hover{
+        .swiper-button-next, .swiper-button-prev{
+            opacity: 1;
+        }
+    }
+}
+
+.container-big{
+    width: 100%;
+}
+@media (min-width: 1536px){
+    .container-big{
+        max-width: 1536px;
+    }
+    .searchresults-items{
+        grid-template-columns:repeat(4, minmax(0, 1fr)) !important;
+    }
+}
+
+
+
+.ui-state-default{
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    border:2px solid $primary !important;
+    background-color: white !important;
+}
+
+.ui-slider{
+    height: 4px !important;
+    border-color: $primary !important;
+    &-range{
+        height: 4px !important;
+        background-color: $primary !important;
+    }
+}
+
+/* Ensure the Swiper container takes full width */
+.yacht-detail-swiper {
+    width: 100%;
+    //max-width: 1200px; /* Set a max width if needed */
+    margin: auto;
+}
+
+/* Swiper wrapper should be flexible */
+.yacht-detail-swiper .swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+/* Slides should have a fixed height but flexible width */
+.yacht-detail-swiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Fixed height */
+    width: 100%;
+    text-align: center;
+}
+
+/* Image inside slides should respect height */
+.yacht-detail-swiper .swiper-slide img {
+    width: 100%;
+    height: auto; /* Let the width adjust dynamically */
+    object-fit: cover; /* Ensure the image fits without cropping */
+    aspect-ratio: 16/9;
+    object-position: center;
+}
+
+/* Example styling for text content */
+.yacht-detail-swiper .text-content {
+    max-width: 80%;
+    font-size: 1.2rem;
+}

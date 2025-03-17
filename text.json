@@ -1,0 +1,206 @@
+{
+	"id": 418490146000231,
+	"name": "ESPRESSO II",
+	"model": "Sun Odyssey 30i",
+	"modelId": 407512250000100000,
+	"shipyardId": 3,
+	"year": 2009,
+	"kind": "Sail boat",
+	"certificate": "HR-103160",
+	"homeBaseId": 121,
+	"homeBase": "Marina Betina",
+	"companyId": 231,
+	"company": "Adria Yacht Center",
+	"draught": 1.75,
+	"beam": 3.18,
+	"length": 8.79,
+	"waterCapacity": 160.0,
+	"fuelCapacity": 50.0,
+	"engine": "21 PS",
+	"deposit": 1400.0,
+	"depositWithWaiver": 0.0,
+	"currency": "EUR",
+	"commissionPercentage": 15.0,
+	"maxDiscountFromCommissionPercentage": 5.0,
+	"wc": 1,
+	"berths": 6,
+	"cabins": 2,
+	"wcNote": "",
+	"berthsNote": "(4+2)",
+	"cabinsNote": "+ Salon",
+	"yearNote": "",
+	"mainsailType": "Furling",
+	"genoaType": "Furling",
+	"requiredSkipperLicense": 1,
+	"defaultCheckInDay": 7,
+	"allCheckInDays": [
+		7
+	],
+	"defaultCheckInTime": "18:00",
+	"defaultCheckOutTime": "09:00",
+	"minimumCharterDuration": 7,
+	"maximumCharterDuration": 200,
+	"comment": " ",
+	"images": [
+		{
+			"id": 1177940164200231,
+			"name": "sunodyssey30i_plan.jpg",
+			"description": "Plan image",
+			"url": "https://www.booking-manager.com/cbm/documents/149317630000100231_sunodyssey30i_plan.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 1542928810000100231,
+			"name": "Espresso2_int3.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/1542928810000100231_Espresso2_int3.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 1542928720000100231,
+			"name": "Espresso2_ext2.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/1542928720000100231_Espresso2_ext2.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 1542933290000100231,
+			"name": "Espresso2_int4.jpg",
+			"description": "Interior image",
+			"url": "https://www.booking-manager.com/cbm/documents/1542933290000100231_Espresso2_int4.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 1177910164200231,
+			"name": "SunOdyssey30i_00.jpg",
+			"description": "Main image",
+			"url": "https://www.booking-manager.com/cbm/documents/149317570000100231_SunOdyssey30i_00.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 1542928870000100231,
+			"name": "Espresso2_int5.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/1542928870000100231_Espresso2_int5.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 12186650466500231,
+			"name": "1493033347401_SO_30_back.JPG",
+			"description": "Main image",
+			"url": "https://www.booking-manager.com/cbm/documents/12186650466500231_1493033347401_SO_30_back.JPG",
+			"sortOrder": 0
+		},
+		{
+			"id": 1542928780000100231,
+			"name": "Espresso2_int2.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/1542928780000100231_Espresso2_int2.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 1542928750000100231,
+			"name": "Espresso2_int1.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/1542928750000100231_Espresso2_int1.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 1542928690000100231,
+			"name": "Espresso2_ext1.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/1542928690000100231_Espresso2_ext1.jpg",
+			"sortOrder": 0
+		}
+	],
+	"equipmentIds": [
+		16,
+		1,
+		37,
+		7,
+		14,
+		30,
+		47
+	],
+	"equipment": [
+		{
+			"id": 37,
+			"value": ""
+		},
+		{
+			"id": 1,
+			"value": ""
+		},
+		{
+			"id": 47,
+			"value": ""
+		},
+		{
+			"id": 7,
+			"value": ""
+		},
+		{
+			"id": 14,
+			"value": ""
+		},
+		{
+			"id": 16,
+			"value": ""
+		},
+		{
+			"id": 30,
+			"value": 1
+		}
+	],
+	"products": [
+		{
+			"name": "Bareboat",
+			"crewedByDefault": false,
+			"isDefaultProduct": true,
+			"extras": [
+				{
+					"id": 11593340466500231,
+					"name": "Tourist tax"
+				},
+				{
+					"id": 35211581355400231,
+					"name": "Transit log 2 cabins (Permit, End cleaning; linen, towels, technical support, WiFi, hygiene pack, 1 Gas bottle)"
+				},
+				{
+					"id": 24204590334500231,
+					"name": "Relingnet"
+				},
+				{
+					"id": 23564630366800231,
+					"name": "Comfort Package (Outboard engine, early check-in 15:00, pets welcome) (on request & confirmation)"
+				},
+				{
+					"id": 32273600334500231,
+					"name": "Stand up paddle (SUP) (on request & confirmation) + Deposit EUR 500,00"
+				},
+				{
+					"id": 24764020334500231,
+					"name": "Comfort Package (Outboard engine, early check-in 15:00, pets welcome) (on request & confirmation)"
+				},
+				{
+					"id": 25936080334500231,
+					"name": "Outboard engine"
+				},
+				{
+					"id": 685351560000100231,
+					"name": "Skipper Service"
+				}
+			]
+		}
+	],
+	"descriptions": [
+		{
+			"category": "general",
+			"text": "",
+			"documents": []
+		}
+	],
+	"crew": []
+}
+
+

@@ -1,0 +1,15 @@
+wget http://127.0.0.1:8001/countries
+wget http://127.0.0.1:8001/worldRegions
+wget http://127.0.0.1:8001/sailingAreas
+wget http://127.0.0.1:8001/bases
+wget http://127.0.0.1:8001/equipment
+wget http://127.0.0.1:8001/companies
+wget http://127.0.0.1:8001/shipyards
+wget http://127.0.0.1:8001/yachtTypes
+
+wget http://127.0.0.1:8000/offers
+wget http://127.0.0.1:8000/specialOffers
+wget http://127.0.0.1:8000/yachts
+
+
+-- wget http://127.0.0.1:8000/prices

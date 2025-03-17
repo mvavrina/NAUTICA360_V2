@@ -1,0 +1,605 @@
+{
+	"id": 30301041541600198,
+	"name": "Bella Ciao",
+	"model": "Sun Odyssey 410",
+	"modelId": 1752333620000100000,
+	"shipyardId": 3,
+	"year": 2024,
+	"kind": "Sail boat",
+	"certificate": "",
+	"homeBaseId": 9,
+	"homeBase": "ACI Marina Split",
+	"companyId": 198,
+	"company": "Euromarine charter",
+	"draught": 2.14,
+	"beam": 3.99,
+	"length": 12.35,
+	"waterCapacity": 330.0,
+	"fuelCapacity": 200.0,
+	"engine": "Yanmar 45 HP",
+	"deposit": 2000.0,
+	"depositWithWaiver": 0.0,
+	"currency": "EUR",
+	"commissionPercentage": 15.0,
+	"maxDiscountFromCommissionPercentage": 50.0,
+	"wc": 2,
+	"berths": 8,
+	"cabins": 3,
+	"wcNote": "",
+	"berthsNote": "",
+	"cabinsNote": "",
+	"yearNote": "",
+	"mainsailArea": 35.1,
+	"genoaArea": 34.3,
+	"transitLog": 250.0,
+	"mainsailType": "Furling",
+	"genoaType": "Furling",
+	"requiredSkipperLicense": 1,
+	"defaultCheckInDay": 7,
+	"allCheckInDays": [
+		7
+	],
+	"defaultCheckInTime": "18:00",
+	"defaultCheckOutTime": "09:00",
+	"minimumCharterDuration": 7,
+	"maximumCharterDuration": 90,
+	"maxPeopleOnBoard": 8,
+	"comment": " ",
+	"images": [
+		{
+			"id": 30846391541600198,
+			"name": "N4_Bella_Ciao-07.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/30846391541600198_N4_Bella_Ciao-07.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 31179351541600198,
+			"name": "SO410_Bella_Ciao_02.jpeg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31179351541600198_SO410_Bella_Ciao_02.jpeg",
+			"sortOrder": 0
+		},
+		{
+			"id": 30846471541600198,
+			"name": "N8_PROVA_KREVET_Bella_Ciao-14.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/30846471541600198_N8_PROVA_KREVET_Bella_Ciao-14.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 31562931541600198,
+			"name": "_DSF1824.JPG",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31562931541600198__DSF1824.JPG",
+			"sortOrder": 0
+		},
+		{
+			"id": 31563111541600198,
+			"name": "_DSF1855.JPG",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31563111541600198__DSF1855.JPG",
+			"sortOrder": 0
+		},
+		{
+			"id": 31179451541600198,
+			"name": "SO410_Bella_Ciao_07.jpeg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31179451541600198_SO410_Bella_Ciao_07.jpeg",
+			"sortOrder": 0
+		},
+		{
+			"id": 31563031541600198,
+			"name": "_DSF1847.JPG",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31563031541600198__DSF1847.JPG",
+			"sortOrder": 0
+		},
+		{
+			"id": 31562991541600198,
+			"name": "_DSF1842.JPG",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31562991541600198__DSF1842.JPG",
+			"sortOrder": 0
+		},
+		{
+			"id": 31563091541600198,
+			"name": "_DSF1852.JPG",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31563091541600198__DSF1852.JPG",
+			"sortOrder": 0
+		},
+		{
+			"id": 31179391541600198,
+			"name": "SO410_Bella_Ciao_04.jpeg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31179391541600198_SO410_Bella_Ciao_04.jpeg",
+			"sortOrder": 0
+		},
+		{
+			"id": 31179331541600198,
+			"name": "SO410_Bella_Ciao_01.jpeg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31179331541600198_SO410_Bella_Ciao_01.jpeg",
+			"sortOrder": 0
+		},
+		{
+			"id": 31179511541600198,
+			"name": "SO410_Bella_Ciao_10.jpeg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31179511541600198_SO410_Bella_Ciao_10.jpeg",
+			"sortOrder": 0
+		},
+		{
+			"id": 30846451541600198,
+			"name": "N7_provaBella_Ciao-01.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/30846451541600198_N7_provaBella_Ciao-01.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 30846491541600198,
+			"name": "N9_Bella_Ciao-15.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/30846491541600198_N9_Bella_Ciao-15.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 30846431541600198,
+			"name": "N6_Bella_Ciao-05.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/30846431541600198_N6_Bella_Ciao-05.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 30846591541600198,
+			"name": "P2_KRMA_WC_Bella_Ciao-12.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/30846591541600198_P2_KRMA_WC_Bella_Ciao-12.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 30846251541600198,
+			"name": "MAIN_Bella_Ciao-24.jpg",
+			"description": "Main image",
+			"url": "https://www.booking-manager.com/cbm/documents/30846251541600198_MAIN_Bella_Ciao-24.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 31563051541600198,
+			"name": "_DSF1849.JPG",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31563051541600198__DSF1849.JPG",
+			"sortOrder": 0
+		},
+		{
+			"id": 30846351541600198,
+			"name": "N1_Bella_Ciao-19.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/30846351541600198_N1_Bella_Ciao-19.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 31562971541600198,
+			"name": "_DSF1840.JPG",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31562971541600198__DSF1840.JPG",
+			"sortOrder": 0
+		},
+		{
+			"id": 31562951541600198,
+			"name": "_DSF1839.JPG",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31562951541600198__DSF1839.JPG",
+			"sortOrder": 0
+		},
+		{
+			"id": 30846411541600198,
+			"name": "N5_Bella_Ciao-04.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/30846411541600198_N5_Bella_Ciao-04.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 31179431541600198,
+			"name": "SO410_Bella_Ciao_06.jpeg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31179431541600198_SO410_Bella_Ciao_06.jpeg",
+			"sortOrder": 0
+		},
+		{
+			"id": 31179471541600198,
+			"name": "SO410_Bella_Ciao_08.jpeg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31179471541600198_SO410_Bella_Ciao_08.jpeg",
+			"sortOrder": 0
+		},
+		{
+			"id": 30846511541600198,
+			"name": "O10_KRMA_Bella_Ciao-09.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/30846511541600198_O10_KRMA_Bella_Ciao-09.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 31563131541600198,
+			"name": "_DSF1856.JPG",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31563131541600198__DSF1856.JPG",
+			"sortOrder": 0
+		},
+		{
+			"id": 31562911541600198,
+			"name": "_DSF1821.JPG",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31562911541600198__DSF1821.JPG",
+			"sortOrder": 0
+		},
+		{
+			"id": 31179371541600198,
+			"name": "SO410_Bella_Ciao_03.jpeg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31179371541600198_SO410_Bella_Ciao_03.jpeg",
+			"sortOrder": 0
+		},
+		{
+			"id": 30846331541600198,
+			"name": "N5_Bella_Ciao-04.jpg",
+			"description": "Interior image",
+			"url": "https://www.booking-manager.com/cbm/documents/30846331541600198_N5_Bella_Ciao-04.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 30846311541600198,
+			"name": "SO410_layout.jpg",
+			"description": "Plan image",
+			"url": "https://www.booking-manager.com/cbm/documents/30846311541600198_SO410_layout.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 31563011541600198,
+			"name": "_DSF1844.JPG",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31563011541600198__DSF1844.JPG",
+			"sortOrder": 0
+		},
+		{
+			"id": 31563071541600198,
+			"name": "_DSF1851.JPG",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31563071541600198__DSF1851.JPG",
+			"sortOrder": 0
+		},
+		{
+			"id": 30846551541600198,
+			"name": "O22_KRMA__WC_Bella_Ciao.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/30846551541600198_O22_KRMA__WC_Bella_Ciao.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 30846531541600198,
+			"name": "O11_KRMABella_Ciao-08.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/30846531541600198_O11_KRMABella_Ciao-08.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 31562891541600198,
+			"name": "_DSF1819.JPG",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31562891541600198__DSF1819.JPG",
+			"sortOrder": 0
+		},
+		{
+			"id": 30846571541600198,
+			"name": "P1_KRMA_WC_Bella_Ciao-11.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/30846571541600198_P1_KRMA_WC_Bella_Ciao-11.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 31563151541600198,
+			"name": "_DSF1862.JPG",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31563151541600198__DSF1862.JPG",
+			"sortOrder": 0
+		},
+		{
+			"id": 31179411541600198,
+			"name": "SO410_Bella_Ciao_05.jpeg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31179411541600198_SO410_Bella_Ciao_05.jpeg",
+			"sortOrder": 0
+		},
+		{
+			"id": 30846371541600198,
+			"name": "N2_Bella_Ciao-18.jpg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/30846371541600198_N2_Bella_Ciao-18.jpg",
+			"sortOrder": 0
+		},
+		{
+			"id": 31179491541600198,
+			"name": "SO410_Bella_Ciao_09.jpeg",
+			"description": "",
+			"url": "https://www.booking-manager.com/cbm/documents/31179491541600198_SO410_Bella_Ciao_09.jpeg",
+			"sortOrder": 0
+		}
+	],
+	"equipmentIds": [
+		16,
+		1,
+		17,
+		2,
+		4,
+		7,
+		9,
+		45,
+		46,
+		15
+	],
+	"equipment": [
+		{
+			"id": 1,
+			"value": ""
+		},
+		{
+			"id": 17,
+			"value": ""
+		},
+		{
+			"id": 7,
+			"value": ""
+		},
+		{
+			"id": 15,
+			"value": ""
+		},
+		{
+			"id": 16,
+			"value": ""
+		},
+		{
+			"id": 45,
+			"value": ""
+		},
+		{
+			"id": 46,
+			"value": "true"
+		},
+		{
+			"id": 17,
+			"value": ""
+		},
+		{
+			"id": 4,
+			"value": ""
+		},
+		{
+			"id": 9,
+			"value": ""
+		},
+		{
+			"id": 2,
+			"value": ""
+		}
+	],
+	"products": [
+		{
+			"name": "Bareboat",
+			"crewedByDefault": false,
+			"isDefaultProduct": true,
+			"extras": [
+				{
+					"id": 3847243550000100198,
+					"name": "Hostess +  meals ",
+					"obligatory": false,
+					"price": 1540.0,
+					"currency": "EUR",
+					"unit": "per week person",
+					"payableInBase": false,
+					"includesDepositWaiver": false,
+					"validDaysFrom": 0,
+					"validDaysTo": 365,
+					"sailingDateFrom": "1970-01-01 00:00:00",
+					"sailingDateTo": "2127-06-12 23:59:59",
+					"validDateFrom": "1970-01-01 00:00:00",
+					"validDateTo": "2127-06-12 00:00:00",
+					"description": "",
+					"includedExtras": [],
+					"availableInBase": -1,
+					"validSailingAreas": []
+				},
+				{
+					"id": 25313960580900198,
+					"name": "Tourist tax",
+					"obligatory": true,
+					"price": 1.4,
+					"currency": "EUR",
+					"unit": "per night person",
+					"payableInBase": true,
+					"includesDepositWaiver": false,
+					"validDaysFrom": 0,
+					"validDaysTo": 365,
+					"sailingDateFrom": "1970-01-01 00:00:00",
+					"sailingDateTo": "2124-04-24 23:59:59",
+					"validDateFrom": "1970-01-01 00:00:00",
+					"validDateTo": "2124-04-24 00:00:00",
+					"description": "",
+					"includedExtras": [],
+					"availableInBase": -1,
+					"validSailingAreas": []
+				},
+				{
+					"id": 15048450217200198,
+					"name": "Pets on board (extra cleaning)",
+					"obligatory": false,
+					"price": 250.0,
+					"currency": "EUR",
+					"unit": "per booking",
+					"payableInBase": false,
+					"includesDepositWaiver": false,
+					"validDaysFrom": 0,
+					"validDaysTo": 365,
+					"sailingDateFrom": "1970-01-01 00:00:00",
+					"sailingDateTo": "2025-12-31 23:59:59",
+					"validDateFrom": "1970-01-01 00:00:00",
+					"validDateTo": "2120-02-29 00:00:00",
+					"description": "",
+					"includedExtras": [],
+					"availableInBase": -1,
+					"validSailingAreas": []
+				},
+				{
+					"id": 25025400875600198,
+					"name": "Provisioning service",
+					"obligatory": false,
+					"price": 50.0,
+					"currency": "EUR",
+					"unit": "per booking",
+					"payableInBase": false,
+					"includesDepositWaiver": false,
+					"validDaysFrom": 0,
+					"validDaysTo": 365,
+					"sailingDateFrom": "1970-01-01 00:00:00",
+					"sailingDateTo": "2124-11-01 23:59:59",
+					"validDateFrom": "1970-01-01 00:00:00",
+					"validDateTo": "2124-11-01 00:00:00",
+					"description": "",
+					"includedExtras": [],
+					"availableInBase": -1,
+					"validSailingAreas": []
+				},
+				{
+					"id": 30563790875600198,
+					"name": "Charter pack S/Y (final cleaning, boat permits, berth for the first and last day in home marina, dinghy, bedding, towels, gas for cooking, WiFi unlimited)",
+					"obligatory": true,
+					"price": 250.0,
+					"currency": "EUR",
+					"unit": "per booking",
+					"payableInBase": false,
+					"includesDepositWaiver": false,
+					"validDaysFrom": 0,
+					"validDaysTo": 365,
+					"sailingDateFrom": "2025-01-01 00:00:00",
+					"sailingDateTo": "2025-12-31 23:59:59",
+					"validDateFrom": "2024-10-01 00:00:00",
+					"validDateTo": "2025-12-31 00:00:00",
+					"description": "*includes final cleaning, boat permits, berht for the first and last day in home marina, dinghy, bedding, towels, gas for cooking, WiFi unlimited\n\n",
+					"includedExtras": [],
+					"availableInBase": -1,
+					"validSailingAreas": []
+				},
+				{
+					"id": 25797160875600198,
+					"name": "Outboard engine",
+					"obligatory": false,
+					"price": 100.0,
+					"currency": "EUR",
+					"unit": "per week",
+					"payableInBase": false,
+					"includesDepositWaiver": false,
+					"validDaysFrom": 0,
+					"validDaysTo": 365,
+					"sailingDateFrom": "1970-01-01 00:00:00",
+					"sailingDateTo": "2125-05-14 23:59:59",
+					"validDateFrom": "1970-01-01 00:00:00",
+					"validDateTo": "2125-05-14 00:00:00",
+					"description": "",
+					"includedExtras": [],
+					"availableInBase": -1,
+					"validSailingAreas": []
+				},
+				{
+					"id": 31194031541600198,
+					"name": "Cook + meals",
+					"obligatory": false,
+					"price": 1750.0,
+					"currency": "EUR",
+					"unit": "per booking",
+					"payableInBase": true,
+					"includesDepositWaiver": false,
+					"validDaysFrom": 0,
+					"validDaysTo": 365,
+					"sailingDateFrom": "1970-01-01 00:00:00",
+					"sailingDateTo": "2130-03-02 23:59:59",
+					"validDateFrom": "1970-01-01 00:00:00",
+					"validDateTo": "2130-03-02 00:00:00",
+					"description": "",
+					"includedExtras": [],
+					"availableInBase": -1,
+					"validSailingAreas": []
+				},
+				{
+					"id": 15048930217200198,
+					"name": "Safety net (without installation)",
+					"obligatory": false,
+					"price": 20.0,
+					"currency": "EUR",
+					"unit": "per booking",
+					"payableInBase": false,
+					"includesDepositWaiver": false,
+					"validDaysFrom": 0,
+					"validDaysTo": 365,
+					"sailingDateFrom": "1970-01-01 00:00:00",
+					"sailingDateTo": "2120-02-29 23:59:59",
+					"validDateFrom": "1970-01-01 00:00:00",
+					"validDateTo": "2120-02-29 00:00:00",
+					"description": "",
+					"includedExtras": [],
+					"availableInBase": -1,
+					"validSailingAreas": []
+				},
+				{
+					"id": 29249940875600198,
+					"name": "Skipper SY + meals",
+					"obligatory": false,
+					"price": 1540.0,
+					"currency": "EUR",
+					"unit": "per week",
+					"payableInBase": false,
+					"includesDepositWaiver": false,
+					"validDaysFrom": 0,
+					"validDaysTo": 365,
+					"sailingDateFrom": "2023-01-01 00:00:00",
+					"sailingDateTo": "2025-12-31 23:59:59",
+					"validDateFrom": "2024-10-01 00:00:00",
+					"validDateTo": "2025-12-31 00:00:00",
+					"description": "",
+					"includedExtras": [],
+					"availableInBase": -1,
+					"validSailingAreas": []
+				},
+				{
+					"id": 19988820217200198,
+					"name": "Crew change (with final cleaning)",
+					"obligatory": false,
+					"price": 250.0,
+					"currency": "EUR",
+					"unit": "per booking",
+					"payableInBase": false,
+					"includesDepositWaiver": false,
+					"validDaysFrom": 0,
+					"validDaysTo": 365,
+					"sailingDateFrom": "1970-01-01 00:00:00",
+					"sailingDateTo": "2122-02-10 23:59:59",
+					"validDateFrom": "1970-01-01 00:00:00",
+					"validDateTo": "2122-02-10 00:00:00",
+					"description": "",
+					"includedExtras": [],
+					"availableInBase": -1,
+					"validSailingAreas": []
+				}
+			]
+		}
+	],
+	"descriptions": [
+		{
+			"category": "general",
+			"text": "",
+			"documents": []
+		}
+	],
+	"crew": []
+}
